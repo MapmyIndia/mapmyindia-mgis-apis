@@ -1,4 +1,4 @@
-[<img src="https://www.mapmyindia.com/api/img/mapmyindia-api.png" height="40"/>](https://www.mapmyindia.com/api)
+[![N|Solid](https://about.mappls.com/images/mappls-b-logo.svg)](https://www.mapmyindia.com/api/)
 
 # MapmyIndia mGIS APIs
 
@@ -15,7 +15,7 @@ which can be leveraged by enterprise and consumer
 - [Layer Styling APIs](#layer-styling-apis)
 - [Dataset Query & Validation APIs](#dataset-query-and-validation-apis)
 - [Layer Visualization & Info APIs](#layer-visualization-and-info-apis)
-- [Satellite Image Segmentation API](#satellite-image-segmentation-api)
+- [Raster Catalogue APIs](#raster-catalogue-apis)
 
 ## How mGIS APIs Enhance Value of any Solution
 mGIS can serve different types of customers on the basis of the type of analytics
@@ -42,7 +42,7 @@ These APIs can take input in several form factors:
 .csv | .xlsx | xls | XLSX | XLS | xlt | XLT | xlsm | XLSM | xltx | XLTX
 ```
 
-<img src="./images/batchroute_section2.gif?raw=true" width="800px" style="margin-left:auto;margin-right:auto"/>
+<img src="./images/BatchOperatoions.gif?raw=true" width="800px" style="margin-left:auto;margin-right:auto"/>
 
 ### Documentation
 [Contact API Support](mailto:apisupport@mapmyindia.com)
@@ -105,7 +105,7 @@ This API reads a dataset with options like read entire dataset, read only specif
 ## Layer Styling APIs
 Layer Styling API is used to update and add new styles to existing datasets.
 
-<img src="./images/styling_section4.gif?raw=true" width="800px" style="margin-left:auto;margin-right:auto"/>
+<img src="./images/07_Style.gif?raw=true" width="800px" style="margin-left:auto;margin-right:auto"/>
 
 #### Documentation
 [Contact API Support](mailto:apisupport@mapmyindia.com)
@@ -121,6 +121,7 @@ These layer styles are listed below:
 - Heatmap Style
 - Pie Chart Style
 - Bar Chart Style
+- D3bubble style
 - Style with label
 
 <br>
@@ -128,7 +129,7 @@ These layer styles are listed below:
 ## Dataset Query And Validation APIs
 This group of APIs are used to perform different data analytics and save results as a new dataset.
 
-<img src="./images/QAV_section5.gif?raw=true" width="800px" style="margin-left:auto;margin-right:auto"/>
+<img src="./images/04_QueryBuilder.gif?raw=true" width="800px" style="margin-left:auto;margin-right:auto"/>
 
 #### Documentation
 [Click here](https://mapmyindia.github.io/mapmyindia-mgis-apis/mgis-apis.html?urls.primaryName=Dataset%20Query%20And%20Validation%20APIs)
@@ -160,34 +161,23 @@ This API fetches the map tiles of an entire dataset with basic queries, queried 
 This API fetches information of a feature that lies on the x and y pixel at which the user clicks. Response of the API changes based on the style that user has assigned to it.
 ### Get Legend Image API
 This API fetches the legend of a dataset as an image which can then be used by developers on their platform to display on canvas (similar to mGIS).
-
+<br>
 <br>
 
-## Satellite Image Segmentation API
-The processing of satellite images for map representation with cutting edge CV/AI methodologies.
-Our Satellite Image Segmentation API automatically categorizes things in the image and generates a map view from satellite images.
+## Raster Catalogue APIs
+This group of APIS are used to fetches Raster layerlist images, legends and bounds for the particular dataset.
 
-<img src="./images/vision_section7.gif?raw=true" width="800px" style="margin-left:auto;margin-right:auto"/>
+<img src="./images/rasterCatalog.gif?raw=true" width="800px" style="margin-left:auto;margin-right:auto"/>
 
 #### Documentation
 [Contact API Support](mailto:apisupport@mapmyindia.com)
 
 
-The API detects and categorizes the below objects:
-- Footprint
-- Roads
-- Soil
-- Vegetation
-- Water
-
-User can pass set of satellite images from two different time periods to see the change in the development like building footprints and road build over time.
-
-The Geojson output can be visualized on mGIS or any geo spatial platform to analyze.
-
-<br><br>
+### [See Video Demo](https://www.mapmyindia.com/api/mgis-api/images/mgis/data-operation.mp4)
+<br>
 For any queries and support, please contact: 
 
-[<img src="https://www.mapmyindia.com/images/logo.png" height="40"/> ](https://www.mapmyindia.com/api)
+![](https://cdn.mapmyindia.com/mappls_web/maps_widget_v2/images/mappls.svg?service=google_gsuite)<br>
 Email us at [apisupport@mapmyindia.com](mailto:apisupport@mapmyindia.com)
 
 
